@@ -5,7 +5,7 @@ from .views import (
 
 app_name = 'savvy'
 
-urlpatterns = {
+urlpatterns = [
     #Local = http://127.0.0.1:8000/
     path("", PostListView.as_view(), name ="post_list"),
-}
+]
